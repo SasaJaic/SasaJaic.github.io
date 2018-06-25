@@ -111,6 +111,8 @@ p {
 	padding-right: 10px;
 	font-size: 14px;
 	line-height: 2em;
+	font-family: 'Montserrat', serif;
+	text-align: justify;
 }
 #imgRight{
 	float:right;
