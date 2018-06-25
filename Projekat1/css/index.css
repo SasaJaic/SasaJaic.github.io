@@ -1,0 +1,248 @@
+html
+{
+	background: url("https://www.pixelstalk.net/wp-content/uploads/2016/04/Red-moon-wallpaper-high-quality-resolution.jpg");
+	background-size: cover;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+header {
+border: 0px solid black;
+width: 1000px; 
+height: 110px;
+margin: 0px;
+background-color: white;
+position: fixed;
+top:0;
+
+ 
+}
+p{
+	font-family: 'Montserrat', sans-serif;
+}
+#headerImg>img {
+	float: left;
+	display: inline-block;
+	
+    
+}
+#headerh1{
+	font-family: 'Russo One', sans-serif; 
+	width: 800px;
+	display: block;
+	color: red;
+	font-size: 34px;
+	margin-left: 40px;
+	text-align: center;
+	
+}
+.ivo {
+	color: blue;
+	text-decoration: none;
+	font-style: italic;
+}
+.h1content {
+	text-align: center;
+	font-family: 'Russo One', sans-serif;
+    font-size: 28px;	
+}
+.h1sidebar{
+	color: red;
+	text-align: center;
+	font-family: 'Russo One', sans-serif; 
+	font-size: 26px;
+}
+.side {
+	color: red;
+	font-size: 18px;
+	font-weight: 600;
+}
+footer {
+	border: 0px solid black;
+	width: 1000px;
+	height: 60px;
+	margin: 0px;
+	background-color: red;
+	position: fixed;
+	bottom:0px;
+	font-family: 'Russo One', sans-serif; 
+}
+nav {
+	border: 0px solid black;
+	width: 1000px;
+	height: 60px;
+	margin: 110px 0px 0px 0px;
+	background-color: red;
+	position: fixed;
+	top: 0;
+	
+}
+.container {
+	border: 0px solid black;
+	clear: both;
+	width: 1000px;
+	margin-bottom: 60px;
+	margin-top: 0px;
+	padding-top: 0px;
+	background-color: #034f84;
+	position:absolute;
+	
+	z-index: -1;
+	
+}
+
+.content {
+	border: 0px solid black;
+	float: left;
+	width: 770px;
+	display: block;
+	height: auto;
+	margin-top: 170px;
+	padding-top: 10px;
+	position: relative;
+	z-index: -1;
+	background-color: white;
+	
+	
+}
+p {
+	padding-bottom:40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 14px;
+	line-height: 2em;
+}
+#imgRight{
+	float:right;
+	padding-left: .2em;
+	width: 200px;
+	height:auto;
+}
+#imgRight:hover{
+	opacity: 0.5;
+}
+#imgLeft{
+	float: left;
+	padding-right: .7em ;
+	width: 200px;
+	height: auto;
+}
+#imgLeft:hover{
+	opacity: 0.5;
+}
+.sidebar {
+	float: right;
+	border: 0px solid black;
+	width: 230px;
+	height: 100%;
+	margin-top: 170px;
+	background-color: #034f84;
+	font-family: 'Russo One', sans-serif; 
+	position: relative;
+}
+ul.sidelinks>a:hover{
+	color:red;
+}
+.bar {
+position: relative;
+background-color: red;
+margin-top: 11px;
+padding-left: 10px;
+font-family: 'Russo One', sans-serif; 
+}
+.bar>li{ 
+display:inline-block;
+}
+.bar>li>a{
+display: block;
+padding: 6px;
+font-size: 22px;
+}
+.bar>li>a:hover{
+background-color: white;
+color: red;
+}
+.fon{
+position: absolute;
+right: 10px;
+}
+.fon>ul>li{
+list-style-type: none;
+}
+.fon>ul>li>a{
+display:block;
+padding: 6px;
+font-size: 22px;
+background-color: white;
+color:red;
+}
+
+.padajuciBar{
+display:none;
+z-index: 1;
+padding: 0;
+}
+.fon:hover .padajuciBar{
+display: block;
+}
+.padajuciBar > li > a:hover {
+background-color: red;
+color: white;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+.footer-links {
+    padding: 10px 10px ;
+	font-size: 18px;
+	display: inline-block;
+	
+}
+.footer-links>a:hover{
+	color: blue;
+}
+.footer{
+	padding-right: 200px;
+	margin: 0px;
+}
+.facefoot {
+	/*position: fixed;
+	right: 390px;
+	bottom: 13px;*/
+	float:right;
+	margin-right: -190px;
+	margin-top: 16px;
+}
+.instafoot {
+	/*position: fixed;
+	right: 450px;
+	bottom: 5px;*/
+	float:right;
+	margin-right: -130px;
+	margin-top: 10px;
+}
+em {
+	color: red;
+}
+
+#buttonTop{
+	font-family: 'Russo One', sans-serif;
+	margin: 0em 2em 1em 0em;
+    border: none;
+   color: black;
+    border-radius: 5px;
+	float: right;
+	 background-color: Transparent;
+    background-repeat:no-repeat;
+	 cursor:pointer;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+}
+.toplook:hover {
+	background: red;
+	border-radius: 5px;
+}
+#buttonTop>a{
+	color: black;
+}
