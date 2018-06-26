@@ -117,7 +117,7 @@ p {
 #imgRight{
 	float:right;
 	padding: .7em;
-	width: 200px;
+	width: 250px;
 	height: auto;
 }
 #imgRight:hover{
@@ -126,7 +126,7 @@ p {
 #imgLeft{
 	float: left;
 	padding: .7em ;
-	width: 200px;
+	width: 250px;
 	height: auto;
 }
 #imgLeft:hover{
