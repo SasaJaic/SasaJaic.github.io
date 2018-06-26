@@ -118,7 +118,7 @@ p {
 	float:right;
 	padding: .7em;
 	width: 200px;
-	height: 200px;
+	height: auto;
 }
 #imgRight:hover{
 	opacity: 0.5;
@@ -127,7 +127,7 @@ p {
 	float: left;
 	padding: .7em ;
 	width: 200px;
-	height: 200px;
+	height: auto;
 }
 #imgLeft:hover{
 	opacity: 0.5;
