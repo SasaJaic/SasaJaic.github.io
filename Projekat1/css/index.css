@@ -116,7 +116,7 @@ p {
 }
 #imgRight{
 	float:right;
-	padding: .7em;
+	padding: .4em;
 	width: 250px;
 	height: auto;
 }
@@ -125,7 +125,7 @@ p {
 }
 #imgLeft{
 	float: left;
-	padding: .7em ;
+	padding: .4em ;
 	width: 250px;
 	height: auto;
 }
