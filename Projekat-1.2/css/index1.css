@@ -1,0 +1,323 @@
+html
+{
+	background: url("https://www.pixelstalk.net/wp-content/uploads/2016/04/Red-moon-wallpaper-high-quality-resolution.jpg");
+	background-size: cover;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+* {
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+fbody {
+	margin: 0 auto;
+	width: 70%;
+	}
+
+header {
+display: flex;
+width: 100%; 
+height: auto;
+background-color: white;
+margin: 0 auto;
+z-index: 1;
+}
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.2em;
+}
+header {
+	justify-content: space-around;
+}
+#headerImg>img {
+	height: 7vw;
+	
+}
+#headerh1{
+	font-family: 'Russo One', sans-serif; 
+	width: 100%;
+	color: red;
+	padding: .7vh;
+	margin-left: 7vw;
+	font-size: 4vw;
+	text-align: center;
+}
+.ivo {
+	color: blue;
+	text-decoration: none;
+	font-style: italic;
+}
+.h1content {
+	flex: 1;
+	text-align: center;
+	font-family: 'Russo One', sans-serif;
+	padding-bottom: 20px;
+}
+.h1sidebar{
+	color: red;
+	text-align: center;
+	font-family: 'Russo One', sans-serif; 
+	font-size: 2em;
+	padding-bottom: 20px;
+}
+.side {
+	color: red;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+nav {
+	display: flex;
+    z-index: 1;
+	width: 100%;
+	background-color: red;
+}
+main {
+	display: flex;
+	height: auto;
+	padding-top: 0px;
+	background-color: #034f84;
+	z-index: -1;	
+}
+
+section {
+	flex: 1 1 100%;
+	height: auto;
+	padding-top: 60px;
+	background-color: white;	
+}
+
+article {
+	padding-bottom:40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: .65em;
+	line-height: 2em;
+	font-family: 'Montserrat', serif;
+	text-align: justify;
+}
+#imgRight{
+	float:right;
+	padding: .4em;
+	width: 25%;
+	padding: 1em;
+}
+#imgRight:hover{
+	opacity: 0.5;
+}
+#imgLeft{
+	float: left;
+	padding: .4em;
+	width: 30%;
+	padding: 1em;
+}
+#imgLeft:hover{
+	opacity: 0.5;
+}
+aside  {	
+    flex: 0 0 250px;
+	height: auto;
+	padding-top: 5vh;
+	padding-left: 1vw;
+	background-color: #034f84;
+	font-family: 'Russo One', sans-serif; 
+}
+.sidelinks {
+	list-style-type: none;
+}
+ul.sidelinks>a:hover{
+	color:red;
+	
+}
+ul {
+/*	padding-left:25px;*/
+}
+
+.bar {
+display: flex;
+width: 100%;
+justify-content: space-between;
+background-color: red;
+font-family: 'Russo One', sans-serif; 
+list-style-type: none;
+}
+
+.bar>li>a{
+padding: 6px;
+font-size: 2vw;
+}
+.bar>li>a:hover{
+background-color: white;
+color: red;
+}
+.fon{
+	white-space: nowrap;
+	right: 300px;
+}
+
+.fon>ul>li{
+list-style-type: none;
+}
+
+.fon>ul>li>a{
+display:block;
+font-size: 22px;
+padding: .4em;
+background-color: white;
+color:red;
+}
+.padajuciBar{
+position: absolute;
+right: 0;
+display: none;
+z-index: 1;
+}
+
+
+.fon:hover .padajuciBar{
+display: block;
+
+}
+
+.padajuciBar > li > a:hover {
+background-color: red;
+color: white;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+.footer-links {
+    padding: 10px 10px ;
+	font-size: 18px;
+	display: inline-block;
+}
+.footer-links>a:hover{
+	color: blue;
+}
+.footer{
+	padding-right: 0px;
+	margin: 0px;
+}
+
+footer {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	height: auto;
+	background-color: red;
+	font-family: 'Russo One', sans-serif; 
+}
+.facefoot {
+	display: flex;
+	flex-direction: row-reverse;
+	float:right;
+	margin-top: 10px;
+}
+    .instafoot {
+	display: flex;
+	float:right;
+	flex-direction: row-reverse;
+	margin-top: 10px;
+}
+em {
+	color: red;
+}
+
+#buttonTop{
+	font-family: 'Russo One', sans-serif;
+	margin: 0em 2em 1em 0em;
+    border: none;
+   color: black;
+    border-radius: 5px;
+	float: right;
+	 background-color: Transparent;
+    background-repeat:no-repeat;
+	 cursor:pointer;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+}
+.toplook:hover {
+	background: red;
+	border-radius: 5px;
+}
+#buttonTop>a{
+	color: black;
+}
+@media screen and (max-width: 350px) {
+	main {
+		flex-wrap: wrap;
+	}
+	 nav .bar {
+		flex-direction: column;
+	}
+	aside {
+		flex-direction: column;
+	}
+	.footer{
+		flex-direction: column;
+	}
+	footer .facefoot{
+		flex-direction: column;
+	}
+	footer .instafoot{
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	main {
+		flex-wrap: wrap;
+	}
+	 nav .bar {
+		flex-direction: column;
+	}
+	.bar>li {
+		margin: 0 auto;
+		padding: .1em;
+	}
+	.bar>li>a {
+		
+		font-size: .8em;
+	}
+	#imgRight, #imgLeft {
+		width: 60%;
+	}
+	aside {
+		margin: 0 auto;
+		padding-bottom: 1em;
+	}
+	.padajuciBar {
+	/*	position: static;*/
+		
+
+	}
+}
+@media screen and (max-width: 800px) {
+	main {
+		flex-wrap: wrap;
+	}
+	.bar>li {
+		margin: 0 auto;
+		padding: .5em;
+	}
+	.bar>li>a {
+		font-size: 1em;
+	}
+	#imgRight, #imgLeft {
+		width: 45%;
+	}
+	aside {
+		margin: 0 auto;
+		padding-bottom: 1em;
+	}
+	
+	
+}
+
+
+
