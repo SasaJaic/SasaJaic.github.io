@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task List</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="adjust">
+        <form name="formaTaskL">
+            <h3>Task List</h3>
+            <input name="newTask" type="text" placeholder="Write new task..." autofocus><br>
+            <input name="btnNewTask" class="btnZ" type="button" value="ADD TASK" onclick="addTask()">
+        </form>
+        <hr>
+        <form name="formFilter">
+            <h3>Tasks</h3>
+            <input name="filterTask" type="text" placeholder="Filter tasks..." onkeyup="filterTasks()"><br>
+            <div id="tasksMagacin">
+            </div>
+            <input name="btnClearTasks" type="button" value="CLEAR TASKS" onclick="Brisi()">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,95 @@
+* {
+    font-family: 'Helvetica', arial, sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+div.adjust {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 20px;
+    border: 2px solid lightgray;
+    border-radius: 3px;
+}
+form {
+    padding: 20px;
+}
+h3 {
+    margin: 0;
+    font-weight: 400;
+}
+input:focus {
+    outline: none;
+}
+input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid lightgray;
+    padding: 7px 7px;
+    margin: 16px 0;
+}
+input[type="button"] {
+    border: none;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    padding: 7px 20px;
+    font-size: 13px;
+    cursor: pointer;
+}
+input[type="button"].btnZ {
+    background-color: #27a69b;
+}
+input[type="button"]:hover {
+    opacity: .8;
+}
+hr {
+    border: none;
+    height: 1px;
+    background-color: lightgray;
+    margin: 16px 0;
+}
+div.singleTask {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 16px;
+    font-size: 12px;
+    border-top: 1px solid lightgray;
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+    user-select: none;
+}
+div.singleTask:first-child {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+div.singleTask:last-child {
+    border-bottom: 1px solid lightgray;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin-bottom: 12px;
+}
+x { 
+    margin-left: 1em;
+    color: red;
+    cursor: pointer;
+}
+span {
+    display: inline-block;
+    overflow: auto;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+@media only screen and (max-width: 1920px) {
+    div.adjust {
+        width: 400px;
+    }
+}
